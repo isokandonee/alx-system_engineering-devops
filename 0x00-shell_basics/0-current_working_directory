@@ -1,2 +1,2 @@
-#!/bin/bash ^Z
-pwd
+#!/bin/bash
+echo pwd
