@@ -1,2 +1,2 @@
 #!/bib/bash
-find . -type f -name "*.js" | xargs rm
+find . -name "*.js" -delete
