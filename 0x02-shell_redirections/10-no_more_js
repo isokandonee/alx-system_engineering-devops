@@ -1,2 +1,5 @@
 #!/bib/bash
-find . -type f -name "*.js" -exec rm {} \;
+find . -type f -name "*.js" | xargs rm
+
+
+#find . -type f -name "*.js" -exec rm {} \;
