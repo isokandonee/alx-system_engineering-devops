@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+
+# Get the current user
+
+current_user=$(whoami)
+
+
+
+# Print "Hello user"
+
+echo "Hello $current_user"
+
