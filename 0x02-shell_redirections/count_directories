@@ -1,0 +1,13 @@
+import os
+
+def count_directories(path):
+  count = 0
+    for entry in os.scandir(path):
+        if entry.is_dir() and entry.name != '.' and entry.name != '..':
+	      count += 1
+	            count += count_directories(entry.path)
+		      return count
+
+current_dir = os.getcwd()
+directory_count = count_directories(current_dir)
+print(f'There are {directory_count} directories and sub-directories in {current_dir}')
