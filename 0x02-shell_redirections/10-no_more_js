@@ -1,2 +1,2 @@
-#!/bib/bash
-find . -name "*.js" -del
+#!/bin/bash
+find -name '*.js' -type f -delete
