@@ -1,3 +1,3 @@
 #!/bin/bash
-0       string  SCHOOL School data file
-file --magic-file=/path/to/school.mgc /path/to/file
+0       string  SCHOOL
+file -m /path/to/school.mgc /path/to/datafile.dat
