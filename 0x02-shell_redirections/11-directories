@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type d -0 -not -name | wc -l
+find . -maxdepth 1 -type d -not -name | wc -l
