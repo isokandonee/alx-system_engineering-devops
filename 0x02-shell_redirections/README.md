@@ -27,4 +27,4 @@ The file iacta will be in the working directory
 The current and parent directories should not be taken into account
 Hidden directories should be counted
 
-12 : 
+12 : done
